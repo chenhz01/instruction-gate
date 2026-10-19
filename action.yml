@@ -1,0 +1,15 @@
+name: instruction-gate
+description: Two of your instructions contradict each other. This finds them.
+branding:
+  icon: shield
+  color: blue
+inputs:
+  args:
+    description: Arguments passed to gate.py
+    required: false
+    default: "--help"
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: python "${{ github.action_path }}/gate.py" ${{ inputs.args }}
