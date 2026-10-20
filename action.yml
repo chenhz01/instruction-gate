@@ -1,5 +1,5 @@
 name: instruction-gate
-description: Two of your instructions contradict each other. This finds them.
+description: Prompt instruction conflict detector: find two instructions that contradict each other before the agent obeys both.
 branding:
   icon: shield
   color: blue
