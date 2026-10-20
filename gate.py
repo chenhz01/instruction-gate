@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: 2026 chenhz01 — see LICENSE, LICENSE-SPEC and NOTICE
 """instruction-gate: system-prompt internal contradiction audit.
 
 Defensive, offline text-rule analysis only — zero network, zero model calls.
